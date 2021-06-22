@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    /* background: #000; */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto; 
+    padding: 0 15px;
+    padding-top: 35px;
+    margin-bottom: 105px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.nav__item {
+    margin-left: 34px;
+    border: 1px solid transparent;
+    padding: 15px 0;
+}
+.nav__item--register {
+    margin-left: 18px;
+}
+.nav__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #b8becd;
+    transition: color .2s ease;
+}
+.nav__link:hover {
+    color: #202336;
+}
+.nav__item--login {
+    color: #fb8f1d;
+    font-weight: 500;
+    border: 1px solid #fb8f1d;
+    padding: 15px 46px;
+    border-radius: 8px;
+}
+.nav__item--register {
+    color: #fff;
+    background-color: #fb8f1d;
+    font-weight: 500;
+    border: 1px solid #fb8f1d;
+    padding: 15px 36px;
+    border-radius: 8px;
+}
+.wrapper {
+    max-width: 1120px;
+    margin: 0 auto; 
+    padding: 0 15px;
+    position: relative;
+}
+.title-h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #202336;
+    margin-bottom: 110px;
+    margin-top: 0;
+}
+.title-h3 {
+    font-weight: 600;
+    color: #202336;
+    font-size: 22px;
+    line-height: 27px;
+    
+}
+.title-h3:after {
+    content: "";
+    display: block;
+    background-color: #202336;
+    height: 2px;
+    width: 32px;
+    margin-top: 21px;
+}
+.form {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 471px;
+    justify-content: space-between;
+}
+.form__select {
+    flex: 0 0 48%;
+    border: 1px solid #afb0b9;
+    border-radius: 6px;
+    padding: 18px 31px;
+    margin-bottom: 34px;
+    font-size: 15px;
+    appearance: none;
+    /* чтобы отключить системную галку */
+    background-image: url(../img/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: 9.5px 6px;
+    background-position: 90% 28px;
+    color: #4a4c53;
+    font-weight: 400;
+}
+.form__btn {
+    background-color: #fb8f1d;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.img-main {
+    position: absolute;
+    right: -85px;
+    top: -33px;
+}
+
+
+
+
+
+
+
+
+
